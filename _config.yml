@@ -20,5 +20,6 @@ exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
+  - README.md
   - project.json
   - project.user.json
