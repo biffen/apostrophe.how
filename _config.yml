@@ -16,6 +16,9 @@ kramdown:
   syntax_highlighter: rouge
 gfm_quirks: paragraph_end
 
+plugins:
+  - jekyll-sitemap
+
 exclude:
   - .gitignore
   - Gemfile
