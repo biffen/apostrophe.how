@@ -1,0 +1,6 @@
+{
+  "name": "apostrophe.how",
+  "commands": {
+    "serve": "bundle exec jekyll serve"
+  }
+}

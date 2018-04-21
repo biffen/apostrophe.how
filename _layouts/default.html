@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000">
+
+  <title>{% if page.title %}{{ page.title }} &#x2022; {% endif %}{{ site.name }}</title>
+
+  <link rel="icon" sizes="512x512" href="img/icon_512.png">
+  <link rel="apple-touch-icon" href="img/icon_512.png">
+
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  {{ content }}
+
+  <footer>
+
+    <p><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+      />&#x2003;<a href="http://apostrophe.how">apostrophe.how</a> is licensed under
+      a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a>.</p>
+
+    <p>Found an error? Report it <a href="https://github.com/biffen/apostrophe.how/issues">here</a>.</p>
+
+  </footer>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117972210-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117972210-1');
+
+  </script>
+
+</body>
+
+</html>

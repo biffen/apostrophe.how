@@ -1,0 +1,245 @@
+::-moz-selection {
+  color: black;
+  background: rgba(255, 255, 0, 0.75);
+}
+
+::selection {
+  color: black;
+  background: rgba(255, 255, 0, 0.75);
+}
+
+@font-face {
+  font-family: 'Linux Biolinum';
+  src: url('/fonts/LinBiolinum_R.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Linux Biolinum';
+  src: url('/fonts/LinBiolinum_RB.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Linux Biolinum';
+  src: url('/fonts/LinBiolinum_RI.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/fonts/LinLibertine_R.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/fonts/LinLibertine_RB.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/fonts/LinLibertine_RBI.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/fonts/LinLibertine_RI.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+a {
+  color: inherit;
+}
+
+article {
+  max-width: 40em;
+  margin: 1em;
+}
+
+body {
+  font-family: "Linux Libertine", Times New Roman, serif;
+  font-size: large;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+dd+dt,
+ul>li+li {
+  margin-top: 0.5em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+figcaption {
+  font-size: 0.8em;
+}
+
+figure {
+  border-color: black;
+  border-width: 1pt;
+  border-style: solid;
+  max-width: 30%;
+  margin: 0.5em;
+  padding: 0.5em;
+  float: right;
+}
+
+footer p {
+  margin: 1em;
+}
+
+footer p+p {
+  text-indent: 0;
+}
+
+footer {
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 1pt;
+  font-size: 0.8em;
+  margin-top: 2.5em;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Linux Biolinum", sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1pt;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.6em;
+}
+
+h5 {
+  font-size: 1.4em;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+header h1 {
+  font-size: 5em;
+  word-wrap: break-word;
+}
+
+header p {
+  text-align: right;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 2.5em;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+kbd {
+  border-collapse: collapse;
+  border-color: black;
+  border-width: 1pt;
+  border-style: solid;
+  border-radius: 0.25em;
+  display: inline;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  height: auto;
+  white-space: nowrap;
+  padding: 0.1em;
+}
+
+nav ol li {
+  list-style-type: none;
+  text-indent: -1em;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+
+nav ol {
+  padding-left: 1em;
+}
+
+nav {
+  max-width: 20em;
+  padding: 1em;
+}
+
+p {
+  text-align: justify;
+  margin: 0;
+}
+
+p+p,
+figure+p {
+  text-indent: 1em;
+}
+
+q {
+  font-style: italic;
+  font-weight: normal;
+  quotes: '‘' '’' '“' '”'
+}
+
+small {
+  font-size: 0.8em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1em;
+  table-layout: fixed;
+}
+
+th {
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 0.25em;
+  vertical-align: top;
+}
+
+ul>li {
+  list-style-position: inside;
+  list-style-type: square;
+}
